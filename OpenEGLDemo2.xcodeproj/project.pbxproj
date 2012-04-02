@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5899C6F128714D400D8079E /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5899C60128714D400D8079E /* EAGLView.m */; };
+		F5899C75128714D400D8079E /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = F5899C69128714D400D8079E /* matrix.c */; };
+		F5899C77128714D400D8079E /* Shaders.m in Sources */ = {isa = PBXBuildFile; fileRef = F5899C6D128714D400D8079E /* Shaders.m */; };
+		F5899CDA12871B9E00D8079E /* template.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F5899CD812871B1800D8079E /* template.vsh */; };
+		F5899CDB12871BA300D8079E /* template.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F5899CD612871AFE00D8079E /* template.fsh */; };
+		F5899DCE1287212700D8079E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5899DCA1287212700D8079E /* QuartzCore.framework */; };
+		F5899DCF1287212700D8079E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5899DCB1287212700D8079E /* OpenGLES.framework */; };
+		F5899DD01287212700D8079E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5899DCC1287212700D8079E /* UIKit.framework */; };
+		F5899DD11287212700D8079E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5899DCD1287212700D8079E /* Foundation.framework */; };
+		F5899E1D1287250400D8079E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5899E1B1287250400D8079E /* InfoPlist.strings */; };
+		F5899E6C128733F400D8079E /* OpenEGLDemoAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = F5899E6B128733F400D8079E /* OpenEGLDemoAppliance.m */; };
+		F5899E8B128735BA00D8079E /* OpenEGLDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5899E8A128735BA00D8079E /* OpenEGLDemoController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D576316048677EA00EA77CD /* OpenEGLDemo.frappliance */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEGLDemo.frappliance; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5899C5F128714D400D8079E /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		F5899C60128714D400D8079E /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		F5899C69128714D400D8079E /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		F5899C6A128714D400D8079E /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		F5899C6C128714D400D8079E /* Shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shaders.h; sourceTree = "<group>"; };
+		F5899C6D128714D400D8079E /* Shaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shaders.m; sourceTree = "<group>"; };
+		F5899CD612871AFE00D8079E /* template.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = template.fsh; sourceTree = "<group>"; };
+		F5899CD812871B1800D8079E /* template.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = template.vsh; sourceTree = "<group>"; };
+		F5899DCA1287212700D8079E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5899DCB1287212700D8079E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5899DCC1287212700D8079E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5899DCD1287212700D8079E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5899E16128724DE00D8079E /* OpenEGLDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenEGLDemo-Info.plist"; sourceTree = "<group>"; };
+		F5899E1C1287250400D8079E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F5899E6A128733F400D8079E /* OpenEGLDemoAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenEGLDemoAppliance.h; sourceTree = "<group>"; };
+		F5899E6B128733F400D8079E /* OpenEGLDemoAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenEGLDemoAppliance.m; sourceTree = "<group>"; };
+		F5899E89128735BA00D8079E /* OpenEGLDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenEGLDemoController.h; sourceTree = "<group>"; };
+		F5899E8A128735BA00D8079E /* OpenEGLDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenEGLDemoController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5899DCE1287212700D8079E /* QuartzCore.framework in Frameworks */,
+				F5899DCF1287212700D8079E /* OpenGLES.framework in Frameworks */,
+				F5899DD01287212700D8079E /* UIKit.framework in Frameworks */,
+				F5899DD11287212700D8079E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* XBMC-frapp */ = {
+			isa = PBXGroup;
+			children = (
+				F5899C5E128714D400D8079E /* Classes */,
+				F5899C57128714C200D8079E /* Shaders */,
+				F5899E0E128724AC00D8079E /* Resources */,
+				F5899DC91287212700D8079E /* Frameworks */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = "XBMC-frapp";
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* OpenEGLDemo.frappliance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5899C57128714C200D8079E /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F5899CD812871B1800D8079E /* template.vsh */,
+				F5899CD612871AFE00D8079E /* template.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		F5899C5E128714D400D8079E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5899E6A128733F400D8079E /* OpenEGLDemoAppliance.h */,
+				F5899E6B128733F400D8079E /* OpenEGLDemoAppliance.m */,
+				F5899E89128735BA00D8079E /* OpenEGLDemoController.h */,
+				F5899E8A128735BA00D8079E /* OpenEGLDemoController.m */,
+				F5899C5F128714D400D8079E /* EAGLView.h */,
+				F5899C60128714D400D8079E /* EAGLView.m */,
+				F5899C69128714D400D8079E /* matrix.c */,
+				F5899C6A128714D400D8079E /* matrix.h */,
+				F5899C6C128714D400D8079E /* Shaders.h */,
+				F5899C6D128714D400D8079E /* Shaders.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F5899DC91287212700D8079E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5899DCD1287212700D8079E /* Foundation.framework */,
+				F5899DCC1287212700D8079E /* UIKit.framework */,
+				F5899DCA1287212700D8079E /* QuartzCore.framework */,
+				F5899DCB1287212700D8079E /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5899E0E128724AC00D8079E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5899E16128724DE00D8079E /* OpenEGLDemo-Info.plist */,
+				F5899E1A1287250400D8079E /* English.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5899E1A1287250400D8079E /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F5899E1B1287250400D8079E /* InfoPlist.strings */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* OpenEGLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "OpenEGLDemo" */;
+			buildPhases = (
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEGLDemo;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "XBMC-frapp";
+			productReference = 8D576316048677EA00EA77CD /* OpenEGLDemo.frappliance */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "OpenEGLDemo2" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* XBMC-frapp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* OpenEGLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5899CDA12871B9E00D8079E /* template.vsh in Resources */,
+				F5899CDB12871BA300D8079E /* template.fsh in Resources */,
+				F5899E1D1287250400D8079E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5899C6F128714D400D8079E /* EAGLView.m in Sources */,
+				F5899C75128714D400D8079E /* matrix.c in Sources */,
+				F5899C77128714D400D8079E /* Shaders.m in Sources */,
+				F5899E6C128733F400D8079E /* OpenEGLDemoAppliance.m in Sources */,
+				F5899E8B128735BA00D8079E /* OpenEGLDemoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5899E1B1287250400D8079E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5899E1C1287250400D8079E /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB911B08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "OpenEGLDemo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = "-Wl,-undefined,dynamic_lookup";
+				PRODUCT_NAME = OpenEGLDemo;
+				TARGETED_DEVICE_FAMILY = "2,3";
+				WRAPPER_EXTENSION = frappliance;
+			};
+			name = Debug;
+		};
+		1DEB911C08733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "OpenEGLDemo-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = "-Wl,-undefined,dynamic_lookup";
+				PRODUCT_NAME = OpenEGLDemo;
+				TARGETED_DEVICE_FAMILY = "2,3";
+				WRAPPER_EXTENSION = frapplication;
+			};
+			name = Release;
+		};
+		1DEB911F08733D790010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = frapplication;
+			};
+			name = Debug;
+		};
+		1DEB912008733D790010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = frapplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB911A08733D790010E9CD /* Build configuration list for PBXNativeTarget "OpenEGLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911B08733D790010E9CD /* Debug */,
+				1DEB911C08733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB911E08733D790010E9CD /* Build configuration list for PBXProject "OpenEGLDemo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB911F08733D790010E9CD /* Debug */,
+				1DEB912008733D790010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
